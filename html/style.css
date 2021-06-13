@@ -1,0 +1,216 @@
+/*  Luara ;#2547 | Yuval#6296 | https://discord.gg/3sqYyVjJ5J */
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+}
+
+.activity-container {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    
+    min-height: auto;
+    height: fit-content;
+    width: auto;
+    padding: 0 1vh;
+
+    border-radius: 0.3vh;
+    background-color: rgba(43, 43, 43, 0.932);
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    border: 0.1vh solid rgba(255, 255, 255, 0.171);
+    
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6vh;
+    width: 100%;
+    height: 10%;
+    background-image:linear-gradient(to top right, rgba(29, 29, 29, 0.8), rgba(19, 19, 19, 0.8));
+
+    -webkit-box-shadow: 0vh 0vh 3.5vh 0.5vh rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0vh 0vh 3.5vh 0.5vh rgba(0, 0, 0, 0.75);
+    box-shadow: 0vh 0vh 3.5vh 0.5vh rgba(0, 0, 0, 0.75);
+    border-bottom: 0.3vh solid #ffffff;
+}
+
+.title {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;    
+    color: #dbdbdb;
+    font-size: 1vw;
+    margin: 0.5vh auto;
+}
+.officers-list-container {
+    margin: 1.2vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.officer-card {
+    margin: 0.4vh;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 1.0vh;
+    padding: 0.5vh;
+    color: #fff;
+    width: 100%;
+    border-radius: 2vh;
+    font-size: 0.7vw;
+}
+.name,.grade {
+    padding: 0.3vh 0.7vh 0.3vh 0.7vh;
+    border-radius: 1vh;
+    margin-top: 0.5vh;
+}
+
+.callsign {
+    background-image:linear-gradient(to top right, rgb(19, 162, 228), rgb(47, 180, 241));
+
+    margin: 0.5vh;
+    padding: 0.5vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    margin-top: 0.2vh;
+    border-radius: 1.2vh;
+}
+.duty-off {
+    margin-top: 0.8vh;
+    color: rgb(245, 72, 72);
+    padding-left: 1vh;
+}
+.duty-on {
+    margin-top: 0.8vh;
+    color: #2bd882;
+    padding-left: 1vh;
+}
+
+
+/* Settings */
+
+.settings {
+    display: none;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(to right top, #292929, #2a2a2a);
+    width: 25%;
+    height: 25%;
+    background-color: #302f2f;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 2vh;
+
+    
+}
+
+.logo {
+    margin-left: 0vh;
+    margin-top: -1vh;
+    width: 13vh;
+    -webkit-filter: drop-shadow(5vh 5vh 5vh #1a1a1a);
+    filter: drop-shadow(0vh 0.5vh 0.5vh #050505);
+}
+
+.user-data {
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    display: block;
+    margin:auto;
+    left: 35.5%;
+    margin-top: -3vh;
+    margin-left: -4.0vh;
+    height: 4vh;
+    align-items: center;
+    text-align: center;
+    background-color: #333333;
+    width: 25vh;
+}
+
+
+input[type=text] {
+    font-size: 1.2vh;
+}
+
+input[type=text],
+input[type=password] {
+    font-family: 'Heebo', sans-serif;
+    color: #8e8e8e;
+    border: none;
+    outline: none;
+    /* padding-left:1.5vh; */
+    border-radius: 1vh;
+    font-weight: lighter;
+}
+
+.success {
+    cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    margin-left: 9.5vh;
+    margin-top: 3.9vh;
+    background-color: #4b4b4b;
+    border-radius: 1vh;
+    padding: 0.8vh;
+    width: 15vh;
+    color: #f7f7f7;
+    font-size: 1.4vh;
+    transition: all 0.3s;
+}
+
+.success:hover {
+    padding: 1.2vh;
+    -webkit-text-stroke: 0.1vh #4b4b4b;
+    color: #4b4b4b;
+    background-color: #f7f7f7;
+
+}
+
+.toggle {
+    cursor: pointer;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    margin-left: 29.0vh;
+    margin-top: -3.8vh;
+    background-color: #4b4b4b;
+    border-radius: 1vh;
+    padding: 0.8vh;
+    width: 15vh;
+    color: #f7f7f7;
+    font-size: 1.4vh;
+    transition: all 0.3s;
+}
+
+.toggle:hover {
+    padding: 1.2vh;
+    -webkit-text-stroke: 0.1vh #4b4b4b;
+    color: #4b4b4b;
+    background-color: #f7f7f7;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}

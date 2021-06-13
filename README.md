@@ -1,5 +1,5 @@
-# YS-Activity
-Modern UI Police activity list.
+YS Activity:
+Thanks for choosing `Development-Zone`!
 
 Features: 
 - Supported Framework - `QBCore`.
@@ -9,8 +9,4 @@ Features:
 - Auto-Synced after server restart / re-join.
 - Supports all languages.
 
-
-©️ All rights reserved by Luara ;#2547 & Yuval#6296 🍸
-https://discord.gg/3sqYyVjJ5J
-
-![image](https://user-images.githubusercontent.com/81599998/121819148-446aad00-cc94-11eb-99d2-795ac3a9d8a5.png)
+©️ All rights reserved.
