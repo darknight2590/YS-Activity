@@ -10,4 +10,5 @@ Features:
 - Supports all languages.
 
 ©️ All rights reserved.
-![image](https://user-images.githubusercontent.com/81599998/122256424-bd0d7b80-ced7-11eb-91da-b59d6927d5d1.png)
+![image](https://user-images.githubusercontent.com/81599998/122256509-ceef1e80-ced7-11eb-8169-056356502f53.png)
+
