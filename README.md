@@ -10,4 +10,4 @@ Features:
 - Supports all languages.
 
 ©️ All rights reserved.
-![image](https://user-images.githubusercontent.com/81599998/121819263-c8249980-cc94-11eb-9716-ecfbf8deb055.png)
+![image](https://user-images.githubusercontent.com/81599998/122256424-bd0d7b80-ced7-11eb-91da-b59d6927d5d1.png)
